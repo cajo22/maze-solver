@@ -6,3 +6,6 @@ maze-solver: $(FILES)
 	mkdir -p build
 	$(CC) $(CFLAGS) $(FILES) -o build/maze-solver
 
+clean:
+	rm -r build/
+
